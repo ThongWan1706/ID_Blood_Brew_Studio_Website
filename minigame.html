@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Game</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="Javascript/minigame.js"></script>
+
+    <!-- Font Style from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kings&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="Images/placeholder.jpg" alt="logo" class="logo-img" />
+        <span class="logo-text">Bloodbound Alchemy</span>
+      </div>
+
+      <div class="minigame">
+        <img src="Images/placeholder.jpg" alt="logo" class="logo-img" />
+        <span class="button-text"><a href="minigame.html">Mini Game</a></span>
+      </div>
+    </header>
+
+    <nav>
+      <ul class="navlist">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Dicussions</a></li>
+        <li><a href="#">Shop For Games</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="lab-wrapper">
+      <h1>Potion Mixer</h1>
+
+      <div class="cauldron-area">
+        <div id="cauldron" class="cauldron">
+          <span class="label">Drop Ingredients</span>
+        </div>
+      </div>
+
+      <div class="ui-panel">
+        <p id="status-text">Select two ingredients to begin...</p>
+        <button id="reset-btn">Clean Cauldron</button>
+      </div>
+
+      <br />
+
+      <div class="shelf" id="inventory">
+        <div class="potion" draggable="true" id="red" data-type="Fire">
+          Potion 1
+        </div>
+        <div class="potion" draggable="true" id="blue" data-type="Ice">
+          Potion 2
+        </div>
+        <div class="potion" draggable="true" id="yellow" data-type="Light">
+          Potion 3
+        </div>
+        <div class="potion" draggable="true" id="purple" data-type="Light">
+          Potion 4
+        </div>
+        <div class="potion" draggable="true" id="indigo" data-type="Light">
+          Potion 5
+        </div>
+        <div class="potion" draggable="true" id="white" data-type="Light">
+          Potion 6
+        </div>
+        <div class="potion" draggable="true" id="black" data-type="Light">
+          Potion 7
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

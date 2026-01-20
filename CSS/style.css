@@ -1,13 +1,13 @@
 /* General */
 body {
   margin: 0;
-  background-color: #d2a7a7;
+  background-color: #000000;
   color: #333;
 }
 
 /* Header */
 header {
-  background-color: #fffaf4;
+  background-color: #290101;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,8 +30,8 @@ header {
 
 .logo-text {
   font-weight: bold;
-  font-size: 60px;
-  font-family: "Kings", cursive;
+  font-size: 40px;
+  font-family: "Nosifer", "Kings", sans-serif; 
   font-weight: 400;
   font-style: normal;
   color: #e61414;
@@ -81,13 +81,89 @@ a {
   color: #b87333;
 }
 
+h1 {
+  color: rgb(247, 44, 44);
+}
+
+/* Mini Game */
+.lab-wrapper {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+}
+
+.shelf {
+    background: #251a30;
+    padding: 20px;
+    border-radius:30px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-bottom: 40px;
+    border: 5px solid #443355;
+}
+
+.potion {
+    font-size: 3rem;
+    cursor: grab;
+    transition: transform 0.2s;
+    padding: 2%;
+    margin: 1%;
+    background-color: #6767bc;
+    font-size: small;
+}
+
+.potion:hover {
+    transform: translateY(-5px);
+}
+
+.cauldron {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border: 6px solid #333;
+    border-radius: 50% 50% 40% 40%;
+    background: radial-gradient(circle at 50% 100%, #1a1a1a, #000);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+
+.cauldron.drag-over {
+    border-color: #9d4edd;
+    box-shadow: 0 0 30px #9d4edd;
+    transform: scale(1.05);
+}
+
+.cauldron.mixing {
+    animation: shake 0.5s infinite;
+}
+
+.ui-panel {
+    margin-top: 30px;
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    background: #443355;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset-btn:hover { background: #5a4470; }
+
 
 /* --- RESPONSIVE ADJUSTMENTS --- */
 @media (max-width: 496px) {
   header {
     flex-direction: column; 
     align-items: center;    
-    padding: 15px 5%;
   }
 
   .logo {
@@ -96,7 +172,7 @@ a {
   }
 
   .logo-text {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   .logo-container, .minigame {
