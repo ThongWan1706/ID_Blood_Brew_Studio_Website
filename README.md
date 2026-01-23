@@ -1,8 +1,7 @@
 <h1>Blood Brew Studio</h1>
-Link of the website: https://thongwan1706.github.io/ID_Bloodbound-Alchemy_Website/
-
-
 Founded by Thong Wan and Chloe, Blood Brew Studio is a game company that specializies in dark, atmospheric experiences and stories. Our work centers around our flagship title, "Bloodbound Alchemy."
+
+Link of the website: https://thongwan1706.github.io/ID_Bloodbound-Alchemy_Website/
 
 <h1>Design Process</h1>
 During the design phase, we want to center the website through immersive storytelling and thematic consistency as the game we're developing out, "Bloodbound Alchemy" took place in the Medieval time period where the player is a sorcerer that uses dark magic to brew potions by using human materials. The use of dark backgrounds, weathered textures, and the blood red color tone matches with the "Bloodbound" theme, which creates a high-contrast, moody atmosphere typical of dark fantasy and alchemical lore.
@@ -25,6 +24,10 @@ For the icon for our company is represented as flask that is filled with blood a
 - As a customer, I want to fill out the Contact Form with my Name, Contact Number, Email, and Comments so that I can inquire about display glitches or game bugs.
 
 - As an interested party, I want to click the "Submit" button after filling out my details sothat my contact information and comments are sent to the company, which can asked for collaborations.
+
+- As a player that had played through the game, I want to see other people's views on the game and see which ending of the game I haven't completed yet
+
+- As a player that enjoys the game that the company developed, I want to check on the upcoming games that the company would develop so I can download the game firsthand to try.
 
 <h1>Features</h1>
 
