@@ -174,4 +174,4 @@ Phone: https://www.pinterest.com/pin/422281208176306/
 
 
 <h1>Acknowledgements</h1>
-The layout for the discussion 
+The layout for the Discussion Page was took reference with the Steam Community Main Page (https://steamcommunity.com/)
