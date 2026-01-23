@@ -34,7 +34,7 @@ The features and structure of the pages for The Blood Brew Studio website includ
 
 1. Website General Structure & Navigation
 
-- Each page shares the identical header which contains the company logo ("Images/logo.png") and the Mini Game button which leads to the Mini Game page
+- Each page shares the identical header which contains the company logo ("Images/logo.png") and the Mini Game button which leads to the Mini Game page.
 - Below the header there is a navigation bar with links to the Homepage, Merchandise Page, Discussion Page, Shop For Games Page and the Contact Page.
 - All the pages also shared the copyright information in the footer "&copy; 2026 Blood Brew Studio. All rights reserved.".
 - All pages also shared the same favicon logo, which is the company logo.
@@ -42,36 +42,36 @@ The features and structure of the pages for The Blood Brew Studio website includ
 <h2>Existing Features</h2>
 
 1. Navigation and Structure
-- All pages has a consistent header that includes a logo, a mini game button and a navigation bar
-- All pages has a uniform footer that includes the company's copyright notice
+- All pages has a consistent header that includes a logo, a mini game button and a navigation bar.
+- All pages has a uniform footer that includes the company's copyright notice.
 - All pages as a favicon icon, which is the company logo.
 
 2. Homepage
 - The pages focus on 
 
 3. Merchandise Page
-- The page focus on selling exclusive merch from the company
+- The page focus on selling exclusive merchs from the company.
 - Each product has its own individual pages that includes:
-    - A title at display the product name
-    - A 360 model review 
-    - A detailed text description of the product
-    - The product's cost
+    - A title at display the product name.
+    - A 360 model review.
+    - A detailed text description of the product.
+    - The product's cost.
     - A Call to Action, which is the "Add to Cart" link, which helps the user to add the product into their cart.
-    - A "return" button (which is the arrow) that links back to the Merchandise Page
+    - A "return" button (which is the arrow) that links back to the Merchandise Page.
 
 4. Cart Page
-- The user will be able to access the Cart Page by clicking the View Cart button at the Merchandise Page
-- This page includes a list of items that the user added their interested products into the cart
-- It includes the quantity of the product, the name of the product and the price of the product
-- It also shows the grand total of the items they have in the cart
-- If there's no items being added in the cart, it will have a blank rectangle with the text that encourages users to add items into the cart
-- There's a delete button as well if the user want to remove the item from the cart
-- Once the user is sastified with the products that they want to buy, they can click onto the Proceed to Checkout button where the user will be prompt to fill up the relevant details
+- The user will be able to access the Cart Page by clicking the View Cart button at the Merchandise Page.
+- This page includes a list of items that the user added their interested products into the cart.
+- It includes the quantity of the product, the name of the product and the price of the product.
+- It also shows the grand total of the items they have in the cart.
+- If there's no items being added in the cart, it will have a blank rectangle with the text that encourages users to add items into the cart.
+- There's a delete button as well if the user want to remove the item from the cart.
+- Once the user is sastified with the products that they want to buy, they can click onto the Proceed to Checkout button where the user will be prompt to fill up the relevant details.
 
 5. Checkout Page
-- The user will be able to access the Checkout Page by clicking the Proceed to Checkout button in the View Cart Page
-- The page will show the form where user need to fill up their name, email address, a checkbox on whether the user need shipping of product and their delivery address
-- At the side of the form there is also the list that shows the order summary which calculate the grand total of the product that included GST and Shipping Fee
+- The user will be able to access the Checkout Page by clicking the Proceed to Checkout button in the View Cart Page.
+- The page will show the form where user need to fill up their name, email address, a checkbox on whether the user need shipping of product and their delivery address.
+- At the side of the form there is also the list that shows the order summary which calculate the grand total of the product that included GST and Shipping Fee.
 
 6. Discussion Page
 - The page includes on the community activities, it can also served as a platform where users can see reviews of players that had experienced the game.
@@ -79,12 +79,12 @@ The features and structure of the pages for The Blood Brew Studio website includ
 
 7. Shop For Games Page
 - The page focus on the games that are being developed by the company and upcoming games.
-- A game is being presented in a box which includes the name of the game, the app icon of the games and Call to Action buttons that the user can click in, and it will bring the user to the respective platforms that the user can downnload the game.
+- A game is being presented in a box which includes the name of the game, the app icon of the games and Call to Action buttons. that the user can click in, and it will bring the user to the respective platforms that the user can downnload the game.
 - While the game is being teased out, the Call to Action buttons are being replaced to the "Upcoming" text.
 
 8. Contact Page
 - This page is designed for communication, which includes of sending feedbacks, questions that the customers would want to ask and served as a reporting platform wherever they face glitches or bugs in the website or the game.
-- The page also includes a visual image so that the page wouldn't look too simple and plain
+- The page also includes a visual image so that the page wouldn't look too simple and plain.
 - The customers will need to subbmit the form including fields of:
     - Name (Required)
     - Contact Number
@@ -163,8 +163,8 @@ Mini Game Page:
 2. Try dragging in Phoenix Feather and Star Dust into the cauldron.
 3. The result should show "Sun Essence".
 4. Try dragging in Phoenix Feather again, it should remain unchange as the cauldron is being used.
-5. Click on the button that clear the cauldron
-6. Continue to drag in other materials to see different material combinations and results
+5. Click on the button that clear the cauldron.
+6. Continue to drag in other materials to see different material combinations and results.
 
 <h1>Content</h1>
 Content are all self created.
