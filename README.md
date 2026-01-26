@@ -101,7 +101,9 @@ The features and structure of the pages for The Blood Brew Studio website includ
 
 
 <h2>Features Left to Implement</h2>
-I was thinking to implement a like list where the user can "like" a product.
+- I was thinking to implement a like list where the user can "like" a product.
+
+- Due to the restdb upgrades, we only can implement one web API for our website. The original plan of the website was to have 2 web API keys, one for the checkout page and one for the contact form. Due to this, we have to give up the contact form API as the checkout API would be more important than the form API.
 
 
 <h1>Technologies Used</h1>
@@ -121,7 +123,7 @@ Contact form:
 1. Go to the "Contact Us" page
 2. Try to submit the empty form and verify that an error message about the required fields appears.
 3. Try to submit the form with all inputs valid and verify that a success message appears.
-4. After submitting, it should lead back to the homepage.
+4. After submitting, it should show 405 Not Allowed as the form API is empty and the form is not sent to the API.
 
 Individual Merchandise Page:
 
@@ -160,6 +162,7 @@ Checkout Page:
 
 Mini Game Page:
 1. Go to the Mini Game Page by clicking the top right button which says "Mini Game".
+2. It should have a short loading animation screen before it really enters into the mini game page.
 2. Try dragging in Phoenix Feather and Star Dust into the cauldron.
 3. The result should show "Sun Essence".
 4. Try dragging in Phoenix Feather again, it should remain unchange as the cauldron is being used.
