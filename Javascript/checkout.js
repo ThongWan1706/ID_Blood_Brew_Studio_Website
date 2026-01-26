@@ -129,9 +129,9 @@ async function handleCheckoutSubmit(e) {
       "Email": document.getElementById('custEmail')?.value || "",
       "DeliveryAddress": isShipping ? (document.getElementById('address')?.value || "") : "Self-Pickup",
       "ShippingRequired": isShipping,
-      "ShippingCost": shippingCost,
-      "GST": gst,
-      "Total": finalTotal,
+      "ShippingCost": shippingCost.toString(),
+      "GST": gst.toString(),
+      "Total": finalTotal.toString(),
       "OrderStatus": "Pending"
     };
 
