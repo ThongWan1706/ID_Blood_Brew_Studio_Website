@@ -566,12 +566,16 @@ h2 {
   align-items: center;
   padding-bottom: 2%;
   text-align: center;
+  min-height: 600px;
+  justify-content: flex-start;
+  width: 40%;
 }
 
-.gamesdeveloped img {
-  width: 80%;
-  height: auto;
-  display: block;
+.gamepicture {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
 }
 
 .download-container {
@@ -1002,8 +1006,8 @@ h2 {
     margin: 5% 5% 5% 5%;
   }
 
-  .gamesdeveloped img {
-    width: 90%;
+  .gamesdeveloped {
+    width: 100%;
     padding-bottom: 5%;
   }
 
@@ -1116,4 +1120,5 @@ h2 {
     width: 60%;
     align-self: center;
   }
+  
 }
