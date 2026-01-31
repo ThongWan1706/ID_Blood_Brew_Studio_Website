@@ -127,7 +127,7 @@ async function handleCheckoutSubmit(e) {
       "Items": cartItems,
       "CustomerName": document.getElementById('custName')?.value || "",
       "Email": document.getElementById('custEmail')?.value || "",
-      "DeliveryAddress": isShipping ? (document.getElementById('address')?.value || "") : "Self-Pickup",
+      "DeliveryAddress": document.getElementById('address')?.value.trim() || "Self-Pickup",
       "ShippingRequired": isShipping,
       "ShippingCost": "$" + shippingCost.toString(),
       "GST": "$" + gst.toString(),
