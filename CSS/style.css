@@ -459,18 +459,17 @@ h2 {
 /* Contact Page Section */
 .contact-section {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: stretch;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1%;
+  gap: 0;
 }
 
 .contact-image-container {
-  flex: 5;
-  background-color: #ffffff;
-  height: 500px;
-  overflow: hidden;
+  flex: 1;
+  display: flex;
 }
 
 .contact-image-container img {
@@ -481,8 +480,11 @@ h2 {
 }
 
 .contact-form-container {
-  flex: 5;
-  padding: 20px;
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .intro-text {
