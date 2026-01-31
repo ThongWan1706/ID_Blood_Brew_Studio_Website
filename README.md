@@ -32,14 +32,7 @@ The main purpose of the website is not only to expand on our company branding, i
 
 <h1>Features</h1>
 
-The features and structure of the pages for The Blood Brew Studio website include:
-
-1. Website General Structure & Navigation
-
-- Each page shares the identical header which contains the company logo ("Images/logo.png") and the Mini Game button which leads to the Mini Game page.
-- Below the header there is a navigation bar with links to the Homepage, Merchandise Page, Discussion Page, Shop For Games Page and the Contact Page.
-- All the pages also shared the copyright information in the footer "&copy; 2026 Blood Brew Studio. All rights reserved.".
-- All pages also shared the same favicon logo, which is the company logo.
+The existing features and structure of the pages for The Blood Brew Studio website include:
 
 <h2>Existing Features</h2>
 
